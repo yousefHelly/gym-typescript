@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion';
 import { container } from '../animations/container';
 import { header, headerReversed } from '../animations/header';

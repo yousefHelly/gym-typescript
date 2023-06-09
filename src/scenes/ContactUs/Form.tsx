@@ -1,12 +1,5 @@
-import React from 'react'
 import { Formik, Field, Form as FormikForm, ErrorMessage } from 'formik';
 import * as Yup from 'yup'
-interface FormInput  {
-    name: string,
-    email: string,
-    message: string
-}
-
 const Form = () => {
   return (
     <Formik
